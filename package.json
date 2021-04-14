@@ -1,0 +1,16 @@
+{
+  "name": "playwright-test-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "folio --config=config.ts --reporter=list"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^0.1101.0",
+    "playwright": "^1.10.0"
+  }
+}
