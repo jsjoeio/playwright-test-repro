@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "folio --config=config.ts --reporter=list"
+    "test": "PASSWORD=e45432jklfdsab CODE_SERVER_ADDRESS=http://localhost:8080 folio --config=config.ts --reporter=list --workers=1 --timeout=60000"
   },
   "keywords": [],
   "author": "",
